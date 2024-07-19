@@ -1,0 +1,19 @@
+[package]
+name = "mysokoban"
+version = "0.1.0"
+authors = ["wangzy <wangzy255@163.com>", "suyue <648334797@qq.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ggez = "0.7"
+imgui = "0.8"
+amethyst = "0.15"
+lazy_static = "1.4"
+tokio = { version = "1", features = ["full"] }
+amethyst_rendy = { version = "0.15", features = ["vulkan"] }
+glam = { version = "0.20.0", features = ["mint"] }
+specs = { version = "0.17.0", features = ["specs-derive"] }
+itertools = "0.9.0"
+eframe = "0.28.1"
